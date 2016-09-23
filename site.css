@@ -1,4 +1,4 @@
-root { 
+root {
     display: block;
 }
 
@@ -8,4 +8,13 @@ root {
 
 .sansSerif{
     font-family: sans-serif;
+}
+
+body {
+  background-color: darkgrey;
+  font-family: helvetica;
+  border: 5px solid lightgrey;
+  color: white;
+  height: 100%;
+  width: 100%;
 }
