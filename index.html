@@ -3,9 +3,17 @@
   <head>
   <link rel="stylesheet" type="text/css" href="site.css" >
   <script type="text/javascript" src="app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <title>
       CSC 412 Introduction Page
     </title>
+  <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("p").animate({left: '250px'});
+      });
+    });
+  </script>
   </head>
   <body>
     <ul id="nav">
@@ -15,7 +23,13 @@
       <li><a href="about.html">Contact</a></li>
       <li><a href="index.html">Placeholder for Github</a></li>
     </ul>
-    </div>
+    <?php
+    function helloXTimes($arg=10) {
+      for ($x = 0; $x < $arg; $x++) {
+        echo "The number is: $x <br>";
+      }
+    helloXTimes();
+    ?>
     <h1> Hello! </h1>
     <p> Welcome to my site. </p>
     <br>
