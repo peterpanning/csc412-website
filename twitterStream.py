@@ -1,3 +1,5 @@
+#! /usr/bin/python
+
 import tweepy
 
 consumer_key = 'zsjAEY2p2Jipfr2nmokTHoqV7'
