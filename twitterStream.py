@@ -23,7 +23,7 @@ user_agent = "Weekly Subreddit Simulator Tweeter by /u/peterfmutch"
 
 r = praw.Reddit(user_agent=user_agent)
 
-r.set_oath_app_info(client_id='aiMrDmbmTX6sBA',
+r.set_oauth_app_info(client_id='aiMrDmbmTX6sBA',
                     client_secret='CeBCPxEYhxKcMLKWpiieoJk4mVM',
                     redirect_uri='http://127.0.0.1:65010/'
                                  'authorize_callback')
