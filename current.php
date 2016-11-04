@@ -6,16 +6,17 @@
         <link rel="stylesheet" type="text/css" href="site.css">
     </head>
     <body>
+    <?php  
+    function helloXTimes($arg=10) {
+      for ($x = 0; $x < $arg; $x++) {
+        echo "Hello, World! <br>";
+      }
+    }
+      helloXTimes();
+    ?>
         <div>
             <h1 class="centered sansSerif">Current</h1>
             <div>
-              <?php
-              function helloXTimes($arg=10) {
-                for ($x = 0; $x < $arg; $x++) {
-                  echo "The number is: $x <br>";
-                }
-              helloXTimes();
-              ?>
                 <p> This is a WIP website which is a project for CSC 412 at SFSU. Eventual goal is something similar to <a href=http://strml.net> this. </a> </p>
             </div>
         </div>
