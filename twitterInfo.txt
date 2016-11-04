@@ -1,0 +1,7 @@
+Consumer Key (API Key) zsjAEY2p2Jipfr2nmokTHoqV7
+Consumer Secret (API Secret) lNHxFifzoLBYk5SVA346RqOHwyXTizn0OTtu6MTeHU2tnGfPWe
+Owner tweettoomutch
+Owner ID 2955247772
+
+Access Token 2955247772-Urnv3b0qVHpyxsPSFDELwZNYkpFazxG1jalTrkL
+Access Token Secret D6hmylTt8tbrOi6g5d6GVvF6sfCewTUUkxNrIe0y88MEB 
