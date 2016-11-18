@@ -28,6 +28,20 @@ r.set_oauth_app_info(client_id='aiMrDmbmTX6sBA',
                     redirect_uri='http://127.0.0.1:65010/'
                                  'authorize_callback')
 
+# Get top submission of the week from /r/SubredditSimulator
+
 top_submission = r.get_subreddit('SubredditSimulator').get_top_from_week(limit=1).next()
 
-print top_submission
+# Parse some stuff
+
+title = top_submission.title
+
+url = top_submission.permalink
+
+simulator = top_submission.author.name #should be sliced?
+
+status = simulator + " says " + title
+
+# Tweet it
+
+api.update_status(status)
