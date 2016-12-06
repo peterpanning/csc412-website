@@ -1,3 +1,6 @@
+<!> TODO: This page should be deleted once the project is done, for now is an
+  adequate example of PHP. </!>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="site.css">
     </head>
     <body>
-    <?php  
+    <?php
     function helloXTimes($arg=10) {
       for ($x = 0; $x < $arg; $x++) {
         echo "Hello, World! <br>";

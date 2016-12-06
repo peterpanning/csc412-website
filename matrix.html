@@ -1,0 +1,17 @@
+<!> TODO: This is a webpage which writes itself as the user watches.
+  It calls functions which are stored largely in /app.js <!>
+
+<button onclick="changeNavBarColor()">Change the navbar color</button>
+
+<script type="text/javascript" src="app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<button onclick="changeNavBarColor()">Change the navbar color</button>
+
+<script>
+  $(document).ready(function(){
+    $("button").click(function(){
+      $("p").animate({left: '250px'});
+    });
+  });
+</script>
