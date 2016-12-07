@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Current</title>
+        <title>Contact</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" type="text/css" href="site.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
     </head>
     <body>
       <!-- Navbar -->
@@ -20,9 +20,9 @@
           </div>
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li><a href="https://github.com/peterpanning">Github</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li class="active"><a href="contact.html">Contact</a></li>
               <li><a href="about.html">About</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
@@ -35,13 +35,33 @@
           </div><!--/.nav-collapse -->
         </div>
       </nav>
-      <div>
-        <h1 class="centered sansSerif">Contact</h1>
+      <!-- TODO: Shouldn't have to manually insert breaks twice after every navbar-->
+      <br><br>
+      <div class="container">
+        <h1>Contact</h1>
           <div>
             <p>Fork me on <a href=https://github.com/peterpanning>Github</a></p>
-            <!>TODO: Send me a message: </!>
-            <!>TODO: Create a form that validates the method and sends me an
-              email with its contents </!>
+            <p>Send me a message: </p>
+            <!-- TODO: Input fields and text area should be aligned across the
+            right side of their boxes -->
+            <form action="/my-handling-form-page" method="post">
+              <div>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="user_name" />
+              </div>
+              <div>
+                  <label for="mail">E-mail:</label>
+                  <input type="email" id="mail" name="user_email" />
+              </div>
+              <div>
+                  <label for="msg">Message:</label>
+                  <textarea id="msg" name="user_message"></textarea>
+              </div>
+
+              <div class="button">
+                  <button type="submit">Send your message</button>
+              </div>
+            </form>
           </div>
       </div>
     </body>
