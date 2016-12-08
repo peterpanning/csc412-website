@@ -123,6 +123,12 @@ echo $email_to . $email_subject . $email_message . $headers ;
 
 <!-- include your own success html here -->
 
+<?php
+
+  print phpinfo();
+
+ ?>
+
 
 
 Thank you for contacting us. We will be in touch with you very soon.
