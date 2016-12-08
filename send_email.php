@@ -162,6 +162,7 @@ mail($email_to, $email_subject, $email_message, $headers);
       <!-- TODO: Shouldn't have to manually insert breaks twice after every navbar-->
       <br><br>
     <div class="container">
+      <h1>Whoops!</h1>
       Unfortunately, this is a placeholder page. Mail is broken on this site.
     </div>
 
