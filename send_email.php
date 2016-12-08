@@ -121,7 +121,7 @@ echo mail($email_to, $email_subject, $email_message, $headers);
 
 <!-- include your own success html here -->
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
     <head>
         <title>Contact</title>
@@ -130,7 +130,6 @@ echo mail($email_to, $email_subject, $email_message, $headers);
     </head>
     <body>
 
-      <!-- Navbar -->
       <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
@@ -156,9 +155,13 @@ echo mail($email_to, $email_subject, $email_message, $headers);
               <li class="active"><a href="contact.html">Contact</a></li>
               <li><a href="https://github.com/peterpanning">Github</a></li>
             </ul>
-          </div><!--/.nav-collapse -->
+          </div>
         </div>
       </nav>
+    -->
+
+
+
       <!-- TODO: Shouldn't have to manually insert breaks twice after every navbar-->
       <br><br>
     <div class="container">
