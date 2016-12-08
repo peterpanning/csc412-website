@@ -113,6 +113,8 @@ $headers = 'From: '.$mail_from."\r\n".
 
 @mail($email_to, $email_subject, $email_message, $headers);
 
+}
+
 ?>
 
 
@@ -122,11 +124,3 @@ $headers = 'From: '.$mail_from."\r\n".
 
 
 Thank you for contacting us. We will be in touch with you very soon.
-
-
-
-<?php
-
-}
-
-?>
