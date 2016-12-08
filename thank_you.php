@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>About</title>
+        <title>Thank You!</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" type="text/css" href="bootstrap.css">
     </head>
@@ -37,9 +37,9 @@
       </nav>
       <br><br>
       <div class="container">
-        <h1>About</h1>
+        <h1>Thank You!</h1>
           <div>
-            <p> Peter Mutch is a student at San Francisco State University. He enjoys rock climbing, Mexican takeout, and long walks on the beach. </p>
+            <p> Thanks for getting in touch! I'll get back to you as soon as I can. </p>
           </div>
       </div>
       <!-- Bootstrap core JavaScript

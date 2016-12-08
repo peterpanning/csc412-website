@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>About</title>
+        <title>Contact</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" type="text/css" href="bootstrap.css">
     </head>
     <body>
+
       <!-- Navbar -->
       <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
@@ -28,18 +29,42 @@
                   <li><a href="kristoff.html">Photographer's Portfolio</a></li>
                 </ul>
               </li>
-              <li class="active"><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="active"><a href="contact.html">Contact</a></li>
               <li><a href="https://github.com/peterpanning">Github</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </nav>
+      <!-- TODO: Shouldn't have to manually insert breaks twice after every navbar-->
       <br><br>
+
+      <!-- Contact Form -->
       <div class="container">
-        <h1>About</h1>
+        <h1>Contact</h1>
           <div>
-            <p> Peter Mutch is a student at San Francisco State University. He enjoys rock climbing, Mexican takeout, and long walks on the beach. </p>
+            <p>Fork me on <a href=https://github.com/peterpanning>Github</a></p>
+            <p>Send me a message: </p>
+            <!-- TODO: Input fields and text area should be aligned across the
+            right side of their boxes -->
+            <form action="send_email.php" method="post">
+              <div>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="user_name" />
+              </div>
+              <div>
+                  <label for="mail">E-mail:</label>
+                  <input type="email" id="mail" name="user_email" />
+              </div>
+              <div>
+                  <label for="msg">Message:</label>
+                  <textarea id="msg" name="user_message"></textarea>
+              </div>
+
+              <div class="button">
+                  <button type="submit">Send your message</button>
+              </div>
+            </form>
           </div>
       </div>
       <!-- Bootstrap core JavaScript
