@@ -115,6 +115,8 @@ mail($email_to, $email_subject, $email_message, $headers);
 
 }
 
+echo $email_to . $email_subject . $email_message . $headers ;
+
 ?>
 
 
