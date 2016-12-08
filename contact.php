@@ -62,7 +62,7 @@
               </div>
 
               <div class="button">
-                  <button type="submit">Send your message</button>
+                  <button type="submit" name="submit" value="Submit">Send your message</button>
               </div>
             </form>
           </div>
