@@ -111,7 +111,7 @@ $headers = 'From: '.$mail_from."\r\n".
 
 'X-Mailer: PHP/' . phpversion();
 
-echo mail($email_to, $email_subject, $email_message, $headers);
+mail($email_to, $email_subject, $email_message, $headers);
 
 }
 
@@ -121,7 +121,7 @@ echo mail($email_to, $email_subject, $email_message, $headers);
 
 <!-- include your own success html here -->
 
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>Contact</title>
@@ -158,9 +158,6 @@ echo mail($email_to, $email_subject, $email_message, $headers);
           </div>
         </div>
       </nav>
-    -->
-
-
 
       <!-- TODO: Shouldn't have to manually insert breaks twice after every navbar-->
       <br><br>
